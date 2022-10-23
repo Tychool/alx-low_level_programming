@@ -1,13 +1,13 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - Prints "and that piece of art is usefull" - Dora Kopar, 2015-10-19"
- * Followed by a new line to standard error.
+ * main - Entry point
  *
- * Return: always 1.
+ * Return: Always 1 (Error)
  */
+
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Kompar, 2015-10-19\n");
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
