@@ -1,1 +1,1 @@
-Projects on pointers, arrays and strings
+Learning low level programmoing at ALX
